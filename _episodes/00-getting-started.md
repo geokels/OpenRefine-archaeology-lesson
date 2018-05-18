@@ -29,9 +29,9 @@ keypoints:
 
 Note: this is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed.
 
-Follow the [Setup](../setup/) instructions to install OpenRefine.
+Follow the [Setup](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions) instructions to install OpenRefine. Note: if you are going to be running large datasets (using more than 3GB of RAM), you may need to install a Java memory extension, which you can install using [these instructions](https://github.com/OpenRefine/OpenRefine/wiki/FAQ:-Allocate-More-Memory).
 
-If after installation and running OpenRefine, it does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
+If after installation, open the OpenRefine.exe file which will open a command window and your default browser. If it does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
 
 
 ## Basics of OpenRefine
@@ -43,4 +43,5 @@ You can find out a lot more about OpenRefine at [http://openrefine.org](http://o
 * Open source ([source on GitHub](https://github.com/OpenRefine/OpenRefine)).
 * A large growing community, from novice to expert, ready to help.
 * Works with large-ish datasets (100,000 rows). Does not scale to many millions. (yet).
+* Knowledge of JSON, GREL, or other coding languages isn't required to use the basic functions.
 
