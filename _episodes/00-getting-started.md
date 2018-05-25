@@ -26,7 +26,7 @@ keypoints:
 
 ## Motivations for the OpenRefine Lesson
 
-* It is important to know what you did to your data. Additionally, journals, granting agencies, and other institutions are requiring documentation of the steps you took when working with your data. With OpenRefine, you can capture all actions applied to your raw data and share them with your publication as supplemental material.
+* It is important to know what you did to your data, to replicate the steps later, or to be able to share with others. With OpenRefine, you can capture all actions applied to your raw data and share them with your publication as supplemental material.
 * All actions are easily reversed in OpenRefine.
 * You _must_ save your work to a new file; OpenRefine _does not_ modify your original dataset.
 * Data is often very messy, and this tool saves a lot of time on cleaning headaches.
