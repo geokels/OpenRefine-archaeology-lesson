@@ -3,7 +3,6 @@ title: "Working with OpenRefine"
 teaching: 15
 exercises: 20
 questions:
-- "How can we bring our data into OpenRefine?"
 - "How can we sort and summarize our data?"
 - "How can we find and correct errors in our raw data?"
 objectives:
@@ -18,32 +17,6 @@ keypoints:
 ---
 
 # Lesson
-
-## Creating a Project
-
-
-Start the program. (Double-click on the openrefine.exe file (or google-refine.exe if using an older version). Java services will start on your machine, and OpenRefine will open in your browser).
-
-Launch OpenRefine (see [Getting Started with OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/00-getting-started/)).
-
-OpenRefine can import a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, Google Spreadsheets. See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
-
-In this first step, we'll browse our computer to the sample data file for this lesson. 
-
-If you haven't already, download the data from:  
-[Google Sheets](https://docs.google.com/spreadsheets/d/1BlEaMI_RLPSpQWX7FUwMI4y4xDjEHknctSWRpghNGTE/edit#gid=379038397)
-
-Once OpenRefine is launched in your browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. Here we will create a new project:
-
-[[/images/path/to/image.ext|ALT TEXT]]
-
-1. click `Create Project` and select `Get data from` `This Computer`.  
-2. Click `Choose Files` and select the file `OpenRefine Workshop Sample Scopus Data.csv`. Click `Open` or double-click on the filename.
-3. Click `Next>>` under the browse button to upload the data into OpenRefine.  
-4. OpenRefine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click `Update Preview` (bottom left). If this is the wrong file, click `<<Start Over` (upper left).  
-5. If all looks well, click `Create Project>>` (upper right). 
-
-Note that at step 1, you could upload data in a standard form from a web address by selecting `Get data from` `Web Addresses (URLs)`. However, this won't work for all URLs.
 
 ## Faceting
 
