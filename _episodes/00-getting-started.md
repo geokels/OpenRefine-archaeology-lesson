@@ -7,6 +7,7 @@ questions:
 objectives:
 - "Describe OpenRefine’s uses and applications."
 - "Differentiate data cleaning from data organization."
+- "Create a new OpenRefine project from a CSV file."
 - "Experiment with OpenRefine’s user interface."
 - "Locate helpful resources to learn more about OpenRefine."
 keypoints:
