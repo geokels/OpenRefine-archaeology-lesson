@@ -45,5 +45,5 @@ folder icon will now appear.
 > You may also see other files.
 {: .solution}
 
-You can import an existing project into OpenRefine by clicking `Open...` in the upper right > `Import Project` and selecting the `tar.gz` project file. This project will include all of the raw data and cleaning steps that were part of the origina project.
+You can import an existing project into OpenRefine by clicking `Open...` in the upper right > `Import Project` and selecting the `tar.gz` project file. This project will include all of the raw data and cleaning steps that were part of the original project.
 
