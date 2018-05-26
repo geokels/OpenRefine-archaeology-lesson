@@ -16,7 +16,7 @@ keypoints:
 
 ## Saving and Exporting
 
-In OpenRefine you can save or export an entire project, or a spreadsheet of the cleaned data. This means you're saving the data and all the information about the data cleaning and transformation steps you've done. By default, OpenRefine saves your project in its memory while you make changes to the data. If you close OpenRefine without exporting, you can still open it up again and see a list of your projects, then click on any one of them to open it up again. However, exporting your data or project allows it to be shared with others, stored elsewhere online or on your computer, and creates a record of the steps made to transform the original dataset.
+In OpenRefine you can save and export an entire project, or a spreadsheet of the cleaned data. This means you're saving the data and all the information about the data cleaning and transformation steps you've done. By default, OpenRefine saves your project in its memory while you make changes to the data. If you close OpenRefine without exporting, you can still open it up again and see a list of your projects, then click on any one of them to open it up again. However, exporting your data or project allows it to be shared with others, stored elsewhere online or on your computer, and creates a record of the steps made to transform the original dataset.
 
 ## Exporting Cleaned Data 
 
