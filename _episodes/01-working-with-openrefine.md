@@ -71,7 +71,7 @@ If specific data in a column needs to be parsed out from the rest of the data in
 1. Let us suppose we want to parse the `Authors with Affiliations` columns we created earlier so that only the author's affiliation is listed. 
 2. Click the down arrow at the top of the `Authors` column. Choose `Edit Column` > `Add Column Based on This Column...`
 3. In the pop-up, in the `New Column Name` box, enter author_institution.
-4. Copy/paste the below text into the available box
+4. Copy/paste the below text into the available box (this text is called a [regular expression](https://librarycarpentry.github.io/lc-data-intro/04-regular-expressions/)):
 
  `import re
   pattern = re.compile(r"((university|college|institute).+?),", re.I)
