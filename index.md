@@ -21,7 +21,7 @@ edits by hand.
 
 > ## Getting Started
 >
-> Data Carpentry's teaching is hands-on, so participants are encouraged to use
+> This workshop is hands-on, so participants are encouraged to use
 > their own computers to insure the proper setup of tools for an efficient 
 > workflow. <br>**These lessons assume no prior knowledge of the skills or tools.**
 >
