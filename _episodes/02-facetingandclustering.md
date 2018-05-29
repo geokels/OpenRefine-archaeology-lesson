@@ -103,34 +103,3 @@ When a table is imported into OpenRefine, all columns are treated as having text
 Be sure to remove any `Text filter` facets you have enabled from the left panel so that we can examine our whole dataset. You can remove an existing facet by clicking the `x` in the upper left of that facet window.
 
 To transform cells in the `recordID` column to numbers, click the down arrow for that column, then `Edit cells` > `Common transforms…` > `To number`. You will notice the `recordID` values change from left-justified to right-justified, and black to green color.
-
-> ## Exercise
->
-> Transform three more columns, including `period`, from text to numbers. Can all columns be transformed to numbers?
-> 
-> > ## Solution
-> > 
-> > Only observations that include only numerals (0-9) can be transformed to numbers. If you apply a number transformation to 
-> > a column that doesn't meet this criteria, and then click the `Undo / Redo` tab, you will see a step that starts with 
-> > `Text transform on 0 cells`. This means that the data in that column was not transformed.
-> > 
-> {: .solution}
-{: .challenge}
-
-
-
-## Examine pair of columns in detail
-
-We can examine one pair of columns by clicking on its square in the `Scatterplot Matrix` A new facet with only that pair will appear in the left margin. 
-
-> ## Exercise
->
-> Click in the scatterplot facet in the left margin and drag to highlight a rectangle. This will subset the data to those entries.
-{: .challenge}
-
-> ## Exercise
-> 
-> - Click on the `Scatterplot Matrix` square for `recordID` and `period` to get that as a facet in the left margin.
-> - Redo the `Text filter` on `scientificName` to show only entries including the letters `bai`.
-> Notice the change in the scatterplot. It might be easier to see if you click `export plot` to put it on a new browser tab.
-{: .challenge}
