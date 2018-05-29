@@ -43,9 +43,9 @@ If after installation, open the OpenRefine.exe file which will open a command wi
 
 ## Creating a Project
 
-Start the program. (Double-click on the openrefine.exe file (or google-refine.exe if using an older version). Java services will start on your machine, and OpenRefine will open in your browser).
+Start the program. (Double-click on the openrefine.exe file. Java services will start on your machine, and OpenRefine will open in your browser).
 
-Launch OpenRefine (see [Getting Started with OpenRefine](https://geokels.github.io/OpenRefine-UNLV-Libraries/00-getting-started/)).
+Launch OpenRefine.
 
 OpenRefine can import a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, Google Spreadsheets. See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
 
