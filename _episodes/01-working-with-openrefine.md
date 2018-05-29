@@ -89,6 +89,7 @@ If specific data in a column needs to be parsed out from the rest of the data in
 >
 > > ## Solution
 > > 
-> > Let's move onto the next section to learn about Faceting and Clustering, and how we can fix this issue.
+> > On the `Authors with Affiliations 2` column, click the down arrow and then `Edit column` > `Rename this column`. Type "Authors" into > > the box that appears. A pop-up will appear that says `Another column already named Authors`. This is because there is another column
+> > where we've recorded all of the author names. You can choose another name like `Author Affiliation` or `author_affiliation` for this > > column.
 > {: .solution}
 {: .challenge}
