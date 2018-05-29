@@ -89,4 +89,3 @@ If specific data in a column needs to be parsed out from the rest of the data in
 > > ## Solution
 > > Let's move onto the next section to learn about Faceting and Clustering, and how we can fix this issue.
 > {: .solution}
-{: .challenge}
