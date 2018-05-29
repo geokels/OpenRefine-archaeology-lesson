@@ -22,7 +22,7 @@ keypoints:
 
 If data in a column needs to be split into multiple columns, and the parts are separated by a common separator (say a comma, or a space), you can use that separator to divide up the pieces into their own columns.
 
-Insert screenshot here.
+![Alt text](../fig/split.png)
 
 1. Let us suppose we want to split the `Authors with Affiliations` column into separate columns for each Author and their Affiliation. 
 2. Click the down arrow at the top of the `Authors with Affiliations` column. Choose `Edit Column` > `Split into several columns...`

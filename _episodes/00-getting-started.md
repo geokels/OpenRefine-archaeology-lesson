@@ -56,7 +56,7 @@ If you haven't already, download the data from:
 
 Once OpenRefine is launched in your browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. Here we will create a new project:
 
-Insert a screenshot here
+![Alt text](../fig/gettingStartedSS.png)
 
 > ## Exercise
 >

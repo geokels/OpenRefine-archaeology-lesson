@@ -19,6 +19,18 @@ keypoints:
 
 # Lesson
 
+![Alt text](../fig/02-1.PNG) "**Image of raw data of keywords for a record set**"
+
+![Alt text](../fig/02-2.png) "**In this situation, we are choosing to transpose cells in rows, into columns in order to weed out duplicate keyterms attached to one record**"
+
+![Alt text](../fig/02-3.PNG) "**Similar to splitting columns, you can also split multi-valued cells by a delimiter**"
+
+![Alt text](../fig/02-4.PNG) "**Now each record is represented by a column of keywords**"
+
+![Alt text](../fig/02-5.PNG) "**We can adjust the capitalization of the keywords by transforming the data in the cells to Titlecase**"
+
+![Alt text](../fig/02-6.PNG) "**Keywords are now in title case**"
+
 ## Faceting and Filtering
 
 Facets are one of the most useful features of OpenRefine and can help both get an overview of the data in a project as well as helping you bring more consistency to the data.
@@ -46,12 +58,18 @@ You can also `invert` the filter to show all records which do not match your sel
 >4. Include a value and then look at top to invert inclusion.
 {: .checklist}
 
+![Alt text](../fig/02-9.PNG) 
+
+![Alt text](../fig/02-10.png) "**All of the facets will appear on the left side, from here you can directly edit the content of any of these facets by clicking on them**"
+
 [More on faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
 
 ## Filters
 As well as using Facets to filter the data displayed in OpenRefine you can also apply 'Text Filters' which looks for a particular piece of text appearing in a column. Text filters are applied by clicking the drop down menu at the top of the column you want to apply the filter to and choosing 'Text filter'.
 
 As with Facets, the Filter options appear in the left hand panel in OpenRefine. Simply type in the text you want to use in the Filter to display only rows which contain that text in the relevant column.
+
+![Alt text](../fig/02-13.png) 
 
 You can also use [regular expressions](https://librarycarpentry.github.io/lc-data-intro/04-regular-expressions/) in the filter.
 
@@ -77,6 +95,12 @@ As well as 'Text facets' Refine also supports a range of other types of faceting
 * Text length facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g. if the values are expected to be years, any row with a text length more than 4 for that column is likely to be incorrect)
 * Facet by blank - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for rows missing key data.
 
+![Alt text](../fig/02-7.PNG) "**How to run duplicates facet**"
+
+![Alt text](../fig/02-8.PNG) "**When 'true' is selected, OpenRefine will show the rows that contain duplicate values. You will notice that all empty rows are considered to have the value, NULL, and therefore are counted as duplicates**"
+
+
+
 Facets are intended to group together common values and OpenRefine limits the number of values allowed in a single facet to ensure the software does not perform slowly or run out of memory. If you create a facet where there are many unique values (for example, a facet on a 'book title' column in a data set that has one row per book) the facet created will be very large and may either slow down the application, or OpenRefine will not create the facet.
 
 
@@ -84,17 +108,19 @@ Facets are intended to group together common values and OpenRefine limits the nu
 
 In OpenRefine, clustering means "finding groups of different values that might be alternative representations of the same thing". For example, the two strings `New York` and `new york` are very likely to refer to the same concept and just have capitalization differences. Likewise, `Gödel` and `Godel` probably refer to the same person. Clustering is a very powerful tool for cleaning datasets which contain misspelled or mistyped entries. OpenRefine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
 
-1. In the `scientificName` Text Facet we created in the step above, click the `Cluster` button.
+1. In the `Keyword 4` Text Facet we created in the earlier, click the `Cluster` button.
 2. In the resulting pop-up window, you can change the `Method` and the `Keying Function`. Try different combinations to 
  see what different mergers of values are suggested.
-3. Select the `key collision` method and `metaphone3` keying function. It should identify three clusters. 
+3. Select the `nearest neighbor` method and `levenshtein` distance function. It should identify one clusters. 
+
+![Alt text](../fig/02-11.png)
+
 4. Click the `Merge?` box beside each, then click `Merge Selected and Recluster` to apply the corrections to the dataset.
-4. Try selecting different `Methods` and `Keying Functions` again, to see what new merges are suggested. You may find there are 
+5. Try selecting different `Methods` and `Keying Functions` again, to see what new merges are suggested. You may find there are 
  still improvements that can be made, but don't `Merge` again; just `Close` when you're done.  We'll now 
  see other operations that will help us detect and correct the remaining problems, and that have other, more general uses.
 
-Important: If you `Merge` using a different method or keying function, or more times than described in the instructions above, 
-your solutions for later exercises will not be the same as shown in those exercise solutions.
+![Alt text](../fig/02-12.png) "**Switching Methods to `key collision` allows you to identify other potential clusters. Adjusting the `Ngram Size` will allow you to find the words that could be clustered based on natural language processing identifying the nearest possible phoneme/syllable/base pair**"
 
 [More on clustering](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
 
