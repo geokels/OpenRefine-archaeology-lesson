@@ -9,8 +9,10 @@ objectives:
 - "Manipulate data using previous steps with undo/redo."
 - "Employ drop-downs to split values from one column into multiple columns."
 - "Employ drop-downs to remove white spaces from cells."
+- "Parse data by utilizing a regular expression."
 keypoints:
 - "Removing leading and trailing whitespace from data can make for easier searching and sorting."
+- "Parsing data using regular expressions, which can be simple or complex, can remove unwanted text quickly."
 ---
 
 # Lesson
@@ -67,21 +69,24 @@ Important: If you skip this step, your solutions for later exercises will not be
 
 If specific data in a column needs to be parsed out from the rest of the data in a column, you can use the OpenRefine feature called "Add Column Based on This Column" which will allow you to use simple language, or more complex language, to create a new column with the desired data.
 
-
-1. Let us suppose we want to parse the `Authors with Affiliations` columns we created earlier so that only the author's affiliation is listed. 
-2. Click the down arrow at the top of the `Authors` column. Choose `Edit Column` > `Add Column Based on This Column...`
-3. In the pop-up, in the `New Column Name` box, enter author_institution.
-4. Copy/paste the below text into the available box (this text is called a [regular expression](https://librarycarpentry.github.io/lc-data-intro/04-regular-expressions/)):
-
- `import re
-  pattern = re.compile(r"((university|college|institute).+?),", re.I)
-  list = []
-  for i in pattern.findall(value):
-  list.append(i[0])
-  return ":::".join(list)`
-  
-5. In the dropdown menu, select the option that says `Python/Jython`.
-6. Click `OK`. You'll get some new columns called `author_institution 1`, `author_institution 2`, and so on.
-7. Notice that in some cases there are multiple affiliations listed in the same cell. Why is this? What do you think we can do to fix this?
-
-Let's move onto the next section to learn about Faceting and Clustering, and how we can fix this issue.
+> ## Exercise
+> 1. Let us suppose we want to parse the `Authors with Affiliations` columns we created earlier so that only the author's affiliation is
+> listed. 
+> 2. Click the down arrow at the top of the `Authors` column. Choose `Edit Column` > `Add Column Based on This Column...`
+> 3. In the pop-up, in the `New Column Name` box, enter author_institution.
+> 4. Copy/paste the below text into the available box (this text is called a [regular expression](https://librarycarpentry.github.io/lc-data-intro/04-regular-expressions/)):
+>
+> `import re
+>  pattern = re.compile(r"((university|college|institute).+?),", re.I)
+>  list = []
+>  for i in pattern.findall(value):
+>  list.append(i[0])
+>  return ":::".join(list)`
+>  
+> 5. In the dropdown menu, select the option that says `Python/Jython`.
+> 6. Click `OK`. You'll get some new columns called `author_institution 1`, `author_institution 2`, and so on.
+> 7. Notice that in some cases there are multiple affiliations listed in the same cell. Why is this? What do you think we can do to fix this?
+> > ## Solution
+> > Let's move onto the next section to learn about Faceting and Clustering, and how we can fix this issue.
+> {: .solution}
+{: .challenge}
