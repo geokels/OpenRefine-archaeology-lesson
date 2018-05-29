@@ -19,17 +19,23 @@ keypoints:
 
 # Lesson
 
-![Alt text](../fig/02-1.PNG) "**Image of raw data of keywords for a record set**"
+![Alt text](../fig/02-1.PNG) 
+"**Image of raw data of keywords for a record set**"
 
-![Alt text](../fig/02-2.png) "**In this situation, we are choosing to transpose cells in rows, into columns in order to weed out duplicate keyterms attached to one record**"
+![Alt text](../fig/02-2.png) 
+"**In this situation, we are choosing to transpose cells in rows, into columns in order to weed out duplicate keyterms attached to one record**"
 
-![Alt text](../fig/02-3.PNG) "**Similar to splitting columns, you can also split multi-valued cells by a delimiter**"
+![Alt text](../fig/02-3.PNG) 
+"**Similar to splitting columns, you can also split multi-valued cells by a delimiter**"
 
-![Alt text](../fig/02-4.PNG) "**Now each record is represented by a column of keywords**"
+![Alt text](../fig/02-4.PNG) 
+"**Now each record is represented by a column of keywords**"
 
-![Alt text](../fig/02-5.PNG) "**We can adjust the capitalization of the keywords by transforming the data in the cells to Titlecase**"
+![Alt text](../fig/02-5.PNG) 
+"**We can adjust the capitalization of the keywords by transforming the data in the cells to Titlecase**"
 
-![Alt text](../fig/02-6.PNG) "**Keywords are now in title case**"
+![Alt text](../fig/02-6.PNG) 
+"**Keywords are now in title case**"
 
 ## Faceting and Filtering
 
@@ -60,7 +66,8 @@ You can also `invert` the filter to show all records which do not match your sel
 
 ![Alt text](../fig/02-9.PNG) 
 
-![Alt text](../fig/02-10.png) "**All of the facets will appear on the left side, from here you can directly edit the content of any of these facets by clicking on them**"
+![Alt text](../fig/02-10.png) 
+"**All of the facets will appear on the left side, from here you can directly edit the content of any of these facets by clicking on them**"
 
 [More on faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
 
@@ -95,9 +102,11 @@ As well as 'Text facets' Refine also supports a range of other types of faceting
 * Text length facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g. if the values are expected to be years, any row with a text length more than 4 for that column is likely to be incorrect)
 * Facet by blank - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for rows missing key data.
 
-![Alt text](../fig/02-7.PNG) "**How to run duplicates facet**"
+![Alt text](../fig/02-7.PNG) 
+"**How to run duplicates facet**"
 
-![Alt text](../fig/02-8.PNG) "**When 'true' is selected, OpenRefine will show the rows that contain duplicate values. You will notice that all empty rows are considered to have the value, NULL, and therefore are counted as duplicates**"
+![Alt text](../fig/02-8.PNG) 
+"**When 'true' is selected, OpenRefine will show the rows that contain duplicate values. You will notice that all empty rows are considered to have the value, NULL, and therefore are counted as duplicates**"
 
 
 
