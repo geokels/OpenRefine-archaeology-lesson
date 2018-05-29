@@ -86,6 +86,9 @@ If specific data in a column needs to be parsed out from the rest of the data in
 > 5. In the dropdown menu, select the option that says `Python/Jython`.
 > 6. Click `OK`. You'll get some new columns called `author_institution 1`, `author_institution 2`, and so on.
 > 7. Notice that in some cases there are multiple affiliations listed in the same cell. Why is this? What do you think we can do to fix this?
+>
 > > ## Solution
+> > 
 > > Let's move onto the next section to learn about Faceting and Clustering, and how we can fix this issue.
 > {: .solution}
+{: .challenge}
