@@ -89,7 +89,9 @@ If specific data in a column needs to be parsed out from the rest of the data in
 >
 > > ## Solution
 > > 
-> > On the `Authors with Affiliations 2` column, click the down arrow and then `Edit column` > `Rename this column`. Type "Authors" into > > the box that appears. A pop-up will appear that says `Another column already named Authors`. This is because there is another column
-> > where we've recorded all of the author names. You can choose another name like `Author Affiliation` or `author_affiliation` for this > > column.
+> > The regular expression that we used searches for specific keywords and then parses or "pulls" out the text surrounding those 
+> > keywords. This means that if an author listed more than one affiliation, the expression will pull all of them out of the original
+> > text and join them back together in the new column we created. 
+> > Let's move onto the next lesson, where we discuss Faceting and Clustering, to find out how we can fix this issue.
 > {: .solution}
 {: .challenge}
