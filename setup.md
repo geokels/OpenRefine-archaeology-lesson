@@ -63,9 +63,9 @@ The interface to OpenRefine is accessed via a web browser. When you run Refine n
 
 ### Working with Large Datasets in OpenRefine
 
+Running OpenRefine to clean up larger datasets can cause the program to freeze or run very slowly. This is usually because OpenRefine uses your computer's RAM to process changes to the dataset, and anything using more than 3GB will cause your RAM to "clog up" and run slowly or not at all.
 
-
-
+There is a work around for this issue. You will need to allocate more memory to running the program, which you can do by following this [FAQ tutorial](https://github.com/OpenRefine/OpenRefine/wiki/FAQ:-Allocate-More-Memory) from the OpenRefine GitHub. It involves downloading and installing a Java extension as well as making a small adjustment to an OpenRefine text file.
 
 ### Getting Help
 
