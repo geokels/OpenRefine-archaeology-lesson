@@ -4,7 +4,7 @@ teaching: 10
 exercises: 5
 questions:
 - "What is OpenRefine useful for?"
-- "How can we bring our data into OpenRefine?"
+- "How can we import our data into OpenRefine?"
 objectives:
 - "Describe OpenRefine’s uses and applications."
 - "Differentiate data cleaning from data organization."
